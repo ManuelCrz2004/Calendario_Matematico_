@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../Sources/IMG_4565.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body header {
+    margin: 0 auto;
+    height: 70px;
+    text-align: center;
+}
+body header h1 {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 60%;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+body main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+body main .fila-calendario {
+    display: grid;
+    height: 390px;
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+body main .fila-calendario div {
+    margin: 0 auto;
+    height: auto;
+    width: 95%;
+    background-color: lightgreen;
+    border-radius: 5px;
+    transition-property: background-color, transform;
+    transition-duration: 0.6s;    
+}
+body main .fila-calendario div:hover {
+    background-color: limegreen;
+    transform: translateY(-5px);
+}
+body main .fila-calendario div h2 {
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+body main .fila-calendario div p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+body main .fila-calendario div img {
+    margin: auto;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    width: 90%;
+}
